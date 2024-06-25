@@ -3,7 +3,7 @@
 
 int main(void) {
     Cluster cluster;
-    auto simServerConfigs = readConfig("../config/config.txt");
+    auto simServerConfigs = readConfig("config/config.txt");
     auto refreshPeriod = std::stoi(simServerConfigs.find("refreshPeriod")->second);
     cluster.addManyServers(simServerConfigs);
     auto cmdLoop = std::thread([&cluster]() -> void {
@@ -17,10 +17,11 @@ int main(void) {
             }
         }
     });
+    std::cout << "Ready\n";
     while (true) {
         auto exportStates = cluster.getExportStates();
         std::ofstream stateFile;
-        stateFile.open("../result/state.txt", std::ios::trunc);
+        stateFile.open("result/state.txt", std::ios::trunc);
         for (auto& exportState : exportStates) {
             std::string s = 
                 "Id: *\n"
