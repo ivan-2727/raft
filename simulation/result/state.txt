@@ -1,0 +1,45 @@
+Id: 0
+Current term: 4
+Role: LEAD
+Voted for id: 0
+Leader id: None
+Timeout, ms: 300
+Since start, ms: 272913
+Since last update, ms: 60
+Active: True
+CommitIdx: 4, 4
+Log: [0 2 put;1;1], [1 2 put;2;2], [2 2 delete;2], [3 4 put;2;2], [4 4 put;3;3]
+Store: [2 2], [3 3], [1 1]
+-------------------------
+
+
+Id: 1
+Current term: 4
+Role: FOLL
+Voted for id: None
+Leader id: 0
+Timeout, ms: 300
+Since start, ms: 272913
+Since last update, ms: 60
+Active: True
+CommitIdx: 4, 4
+Log: [0 2 put;1;1], [1 2 put;2;2], [2 2 delete;2], [3 4 put;2;2], [4 4 put;3;3]
+Store: [2 2], [3 3], [1 1]
+-------------------------
+
+
+Id: 2
+Current term: 4
+Role: FOLL
+Voted for id: None
+Leader id: 0
+Timeout, ms: 300
+Since start, ms: 272913
+Since last update, ms: 30
+Active: True
+CommitIdx: 4, 4
+Log: [0 2 put;1;1], [1 2 put;2;2], [2 2 delete;2], [3 4 put;2;2], [4 4 put;3;3]
+Store: [2 2], [3 3], [1 1]
+-------------------------
+
+

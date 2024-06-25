@@ -1,0 +1,4 @@
+numOfServers 3
+timeout 300
+refreshPeriod 30
+aeSize 2
