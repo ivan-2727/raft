@@ -3,6 +3,11 @@ BUILD_DIR="build"
 if [ ! -d "$BUILD_DIR" ]; then
     mkdir "$BUILD_DIR"
 fi
-cmake || exit
-cmake --build ./"$BUILD_DIR" || exit
-./"$BUILD_DIR"/"$PROJECT_NAME" 
+RESULT_DIR="result"
+if [ ! -d "$RESULT_DIR" ]; then
+    mkdir "$RESULT_DIR"
+fi
+cd "$BUILD_DIR"
+cmake .. || exit
+cmake --build . || exit
+./"$PROJECT_NAME" 

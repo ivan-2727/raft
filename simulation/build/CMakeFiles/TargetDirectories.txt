@@ -1,0 +1,3 @@
+/home/ivan/Desktop/raft/simulation/build/CMakeFiles/RaftSimulation.dir
+/home/ivan/Desktop/raft/simulation/build/CMakeFiles/edit_cache.dir
+/home/ivan/Desktop/raft/simulation/build/CMakeFiles/rebuild_cache.dir

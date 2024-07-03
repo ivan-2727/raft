@@ -2,10 +2,10 @@ Id: 0
 Current term: 1
 Role: FOLL
 Voted for id: None
-Leader id: 2
+Leader id: None
 Timeout, ms: 300
-Since start, ms: 5088
-Since last update, ms: 30
+Since start, ms: 1358
+Since last update, ms: 123
 Active: True
 CommitIdx: -1, -1
 Log: 
@@ -17,10 +17,10 @@ Id: 1
 Current term: 1
 Role: FOLL
 Voted for id: None
-Leader id: 2
+Leader id: None
 Timeout, ms: 300
-Since start, ms: 5088
-Since last update, ms: 59
+Since start, ms: 1358
+Since last update, ms: 123
 Active: True
 CommitIdx: -1, -1
 Log: 
@@ -30,12 +30,12 @@ Store:
 
 Id: 2
 Current term: 1
-Role: LEAD
-Voted for id: 2
+Role: FOLL
+Voted for id: None
 Leader id: None
 Timeout, ms: 300
-Since start, ms: 5088
-Since last update, ms: 60
+Since start, ms: 1358
+Since last update, ms: 92
 Active: True
 CommitIdx: -1, -1
 Log: 
