@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/ivan/Desktop/raft/simulation/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/RaftSimulation.dir/all
+all: CMakeFiles/RaftSimulation.exe.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/RaftSimulation.dir/clean
+clean: CMakeFiles/RaftSimulation.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/RaftSimulation.dir
+# Target rules for target CMakeFiles/RaftSimulation.exe.dir
 
 # All Build rule for target.
-CMakeFiles/RaftSimulation.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.dir/build.make CMakeFiles/RaftSimulation.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.dir/build.make CMakeFiles/RaftSimulation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ivan/Desktop/raft/simulation/build/CMakeFiles --progress-num=1,2 "Built target RaftSimulation"
-.PHONY : CMakeFiles/RaftSimulation.dir/all
+CMakeFiles/RaftSimulation.exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.exe.dir/build.make CMakeFiles/RaftSimulation.exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.exe.dir/build.make CMakeFiles/RaftSimulation.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ivan/Desktop/raft/simulation/build/CMakeFiles --progress-num=1,2 "Built target RaftSimulation.exe"
+.PHONY : CMakeFiles/RaftSimulation.exe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/RaftSimulation.dir/rule: cmake_check_build_system
+CMakeFiles/RaftSimulation.exe.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Desktop/raft/simulation/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RaftSimulation.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RaftSimulation.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ivan/Desktop/raft/simulation/build/CMakeFiles 0
-.PHONY : CMakeFiles/RaftSimulation.dir/rule
+.PHONY : CMakeFiles/RaftSimulation.exe.dir/rule
 
 # Convenience name for target.
-RaftSimulation: CMakeFiles/RaftSimulation.dir/rule
-.PHONY : RaftSimulation
+RaftSimulation.exe: CMakeFiles/RaftSimulation.exe.dir/rule
+.PHONY : RaftSimulation.exe
 
 # clean rule for target.
-CMakeFiles/RaftSimulation.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.dir/build.make CMakeFiles/RaftSimulation.dir/clean
-.PHONY : CMakeFiles/RaftSimulation.dir/clean
+CMakeFiles/RaftSimulation.exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.exe.dir/build.make CMakeFiles/RaftSimulation.exe.dir/clean
+.PHONY : CMakeFiles/RaftSimulation.exe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

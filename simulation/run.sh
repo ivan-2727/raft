@@ -10,4 +10,4 @@ fi
 cd "$BUILD_DIR"
 cmake .. || exit
 cmake --build . || exit
-./"$PROJECT_NAME" 
+./"$PROJECT_NAME.exe" 

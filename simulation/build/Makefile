@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named RaftSimulation
+# Target rules for targets named RaftSimulation.exe
 
 # Build rule for target.
-RaftSimulation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RaftSimulation
-.PHONY : RaftSimulation
+RaftSimulation.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RaftSimulation.exe
+.PHONY : RaftSimulation.exe
 
 # fast build rule for target.
-RaftSimulation/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.dir/build.make CMakeFiles/RaftSimulation.dir/build
-.PHONY : RaftSimulation/fast
+RaftSimulation.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.exe.dir/build.make CMakeFiles/RaftSimulation.exe.dir/build
+.PHONY : RaftSimulation.exe/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.dir/build.make CMakeFiles/RaftSimulation.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.exe.dir/build.make CMakeFiles/RaftSimulation.exe.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.dir/build.make CMakeFiles/RaftSimulation.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.exe.dir/build.make CMakeFiles/RaftSimulation.exe.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.dir/build.make CMakeFiles/RaftSimulation.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RaftSimulation.exe.dir/build.make CMakeFiles/RaftSimulation.exe.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... RaftSimulation"
+	@echo "... RaftSimulation.exe"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

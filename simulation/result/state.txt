@@ -1,44 +1,44 @@
 Id: 0
-Current term: 1
-Role: FOLL
-Voted for id: None
+Current term: 2
+Role: LEAD
+Voted for id: 0
 Leader id: None
 Timeout, ms: 300
-Since start, ms: 1358
-Since last update, ms: 123
+Since start, ms: 76802
+Since last update, ms: 211
 Active: True
-CommitIdx: -1, -1
-Log: 
+CommitIdx: 1, 1
+Log: [0 2 blabla], [1 2 bla]
 Store: 
 -------------------------
 
 
 Id: 1
-Current term: 1
+Current term: 2
 Role: FOLL
 Voted for id: None
-Leader id: None
+Leader id: 0
 Timeout, ms: 300
-Since start, ms: 1358
-Since last update, ms: 123
+Since start, ms: 76802
+Since last update, ms: 181
 Active: True
-CommitIdx: -1, -1
-Log: 
+CommitIdx: 1, 1
+Log: [0 2 blabla], [1 2 bla]
 Store: 
 -------------------------
 
 
 Id: 2
-Current term: 1
+Current term: 2
 Role: FOLL
 Voted for id: None
-Leader id: None
+Leader id: 0
 Timeout, ms: 300
-Since start, ms: 1358
-Since last update, ms: 92
+Since start, ms: 76802
+Since last update, ms: 181
 Active: True
-CommitIdx: -1, -1
-Log: 
+CommitIdx: 1, 1
+Log: [0 2 blabla], [1 2 bla]
 Store: 
 -------------------------
 
