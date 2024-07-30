@@ -1,11 +1,11 @@
 Id: 0
-Current term: 1
-Role: CAND
-Voted for id: 0
+Current term: 0
+Role: FOLL
+Voted for id: None
 Leader id: None
 Timeout, ms: 300
-Since start, ms: 1144
-Since last update, ms: 512
+Since start, ms: 606
+Since last update, ms: 606
 Active: True
 CommitIdx: -1, -1
 Log: 
@@ -14,13 +14,13 @@ Store:
 
 
 Id: 1
-Current term: 1
-Role: CAND
-Voted for id: 1
+Current term: 0
+Role: FOLL
+Voted for id: None
 Leader id: None
 Timeout, ms: 300
-Since start, ms: 1144
-Since last update, ms: 482
+Since start, ms: 606
+Since last update, ms: 606
 Active: True
 CommitIdx: -1, -1
 Log: 
@@ -29,13 +29,13 @@ Store:
 
 
 Id: 2
-Current term: 1
-Role: CAND
-Voted for id: 2
+Current term: 0
+Role: FOLL
+Voted for id: None
 Leader id: None
 Timeout, ms: 300
-Since start, ms: 1144
-Since last update, ms: 512
+Since start, ms: 606
+Since last update, ms: 606
 Active: True
 CommitIdx: -1, -1
 Log: 
